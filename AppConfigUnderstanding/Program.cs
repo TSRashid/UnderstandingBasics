@@ -56,6 +56,10 @@ class MathClass
 
         CSharpModule module = new CSharpModule();
         Console.WriteLine(module.GetMessage());
+        Console.WriteLine(module.Comparator("Rashid", "Rashid"));
+
+
+
 
         
 /*
