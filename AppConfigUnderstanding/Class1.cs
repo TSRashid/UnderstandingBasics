@@ -9,12 +9,14 @@ namespace AppConfigUnderstanding
     
     public delegate void CallBack(string message);
     public delegate void CallBack2(string message);
+   
 
 
     internal class Test
     {
         public void DisplayMessage()
         {
+            Console.WriteLine("This is console app ");
 
         }
        

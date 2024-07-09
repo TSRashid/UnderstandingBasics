@@ -57,6 +57,10 @@ class MathClass
         CSharpModule module = new CSharpModule();
         Console.WriteLine(module.GetMessage());
         Console.WriteLine(module.Comparator("Rashid", "Rashid"));
+        module.DisplayMessage("Welcome to C# Desktop Application Development...");
+
+
+
 
 
 
